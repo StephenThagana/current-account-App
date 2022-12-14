@@ -1,0 +1,48 @@
+/***************************************/
+/*EASY SECTION*/
+/***************************************/
+.section-easy {
+  background-color: $color-grey-light-1;
+  padding: 25rem 0;
+  margin-top: -20vh;
+}
+
+/***************************************/
+/*why SECTION*/
+/***************************************/
+.section-why {
+  background-color: orangered;
+}
+.section-features {
+  padding: $section-padding;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)
+    ),
+    url("../img/phillips.jpg");
+  background-size: cover;
+  transform: skewY(-7deg);
+  margin-top: -10rem;
+
+  & > * {
+    transform: skewY(7deg);
+  }
+}
+
+/***************************************/
+/*SECTION LOANS*/
+/***************************************/
+.section-loans {
+  background-color: $color-grey-light-1;
+  padding: 15rem 0 9.6rem 0;
+  margin-top: -8rem;
+}
+
+/***************************************/
+/*SECTION TESTIMONIAL*/
+/***************************************/
+.section-testimonial {
+  position: relative;
+  padding: $section-padding-medium;
+}

@@ -1,0 +1,16 @@
+.footer {
+  padding: 5rem 0;
+  background-color: $color-grey-dark-3;
+  font-size: 1.4rem;
+  color: $color-white;
+  border-top: 2px solid $color-primary;
+  &__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__logo {
+    width: 15rem;
+    height: auto;
+  }
+}

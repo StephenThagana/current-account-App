@@ -1,0 +1,35 @@
+.section-details {
+  height: 95vh;
+  background-image: url(../img/header.png);
+  background-size: cover;
+  background-position: top;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9rem;
+  width: 100%;
+  padding: 0 4.8rem;
+  margin-bottom: 11rem;
+
+  &__logo {
+    height: 3.2rem;
+  }
+}
+
+.details {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 7.2rem;
+}
+
+.details-description {
+  font-size: 1.6rem;
+  color: $color-white;
+  margin-bottom: 4.8rem;
+  max-width: 40rem;
+}
